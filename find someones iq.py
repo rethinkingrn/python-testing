@@ -9,7 +9,7 @@ seednumber = input("What seed do you want it to be?(if you dont know type a rand
 time.sleep(0.500)
 # asking user for a name
 name = input("Whos iq do you want to find? ")
-seed(seednumber)
+seed(seednumber) 
 # the randonm nunmber generator stuff
 for _ in range(1):
 	# gets a number

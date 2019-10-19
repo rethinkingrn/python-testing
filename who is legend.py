@@ -13,6 +13,9 @@ if question=="henry":
 if question=="matthew":
     print("you have the highest iq out there")
     exit()
+if question=="me":
+    print("i can't believe that you thought that yourself is legend")
+    exit()
 time.sleep(.500)
 #making the person rethink who he/she typed
 print(question, "is not legend why would you say that")
