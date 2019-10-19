@@ -5,7 +5,7 @@ print("only add because i dont know what im doing")
 time.sleep(.500)
 def add(x, y):
     return x / y
-
+# this entire thing doesnt even work properly
 num1 = int(input("first number to add: "))
 time.sleep(.250)
 num2 = int(input("second number to add onto the first number: "))
