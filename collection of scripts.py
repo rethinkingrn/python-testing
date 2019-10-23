@@ -49,6 +49,7 @@ def main():
         time.sleep(.500)
         # user input
         print("who is legend? Type NAMES for a list of names.")
+        print("Type EXIT to return to the programs list")
     def NAME():
         question=input(">>> ")
         time.sleep(0.500)
@@ -66,28 +67,33 @@ def main():
             NAME()
         if question=="henry":
             print("bro your iq must be lower than a rock")
-            main()
+            NAME()
         
         #im always legend
         if question=="matthew":
             print("you have the highest iq out there")
-            main()
+            NAME()
         
         if question=="me":
             print("i can't believe that you thought that yourself is legend")
             time.sleep(2)
-            main()
+            NAME()
         
         if question=="yin":
             print("Cool you're original")
-            main()
+            NAME()
         time.sleep(.500)
+
+        if question=="EXIT":
+            print("Okay exiting.")
+            main()
         
         #making the person rethink who he/she typed
         print(question, "is not legend why would you say that")
-        time.sleep(1)
+        time.sleep(0.5)
         print(question, "is most likely stubborn also so quite a small brain move right there")
-        main()
+        time.sleep(1)
+        NAME()
     NAME()
     if program=="IQ":
         # asking user for a name
