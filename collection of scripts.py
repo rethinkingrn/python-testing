@@ -50,51 +50,63 @@ def main():
         # user input
         print("who is legend? Type NAMES for a list of names.")
         print("Type EXIT to return to the programs list")
-    def NAME():
-        question=input(">>> ")
-        time.sleep(0.500)
-        #basically just don't type henry
-       
-        if question=="NAMES":
-            print("ALL must be lower-cased")
-            print("You can type any name, these just have a cool responce")
-            print("----------------------------------------------------------")
-            print("henry")
-            print("matthew")
-            print("me")
-            print("yin")
-            print("----------------------------------------------------------")
-            NAME()
-        if question=="henry":
-            print("bro your iq must be lower than a rock")
-            NAME()
+        def NAME():
+            question=input(">>> ")
+            time.sleep(0.500)
+            #basically just don't type henry
         
-        #im always legend
-        if question=="matthew":
-            print("you have the highest iq out there")
-            NAME()
-        
-        if question=="me":
-            print("i can't believe that you thought that yourself is legend")
-            time.sleep(2)
-            NAME()
-        
-        if question=="yin":
-            print("Cool you're original")
-            NAME()
-        time.sleep(.500)
+            if question=="NAMES":
+                print("ALL must be lower-cased")
+                print("You can type any name, these just have a cool responce")
+                print("----------------------------------------------------------")
+                print("henry")
+                print("matthew")
+                print("me")
+                print("yin")
+                print("felix")
+                print("desmond")
+                print("----------------------------------------------------------")
+                NAME()
+            if question=="henry":
+                print("dude are you living on the moon? that person is known by 1.7 people and nobody ever heard of that irrelevent man and he has no friend so how is he legend? maybe a homeless legend...")
+                NAME()
+            
+            #im always legend
+            if question=="matthew":
+                print("lol u dream!")
+                NAME()
+            
+            if question=="me":
+                print("NEVER!")
+                time.sleep(2)
+                NAME()
 
-        if question=="EXIT":
-            print("Okay exiting.")
-            main()
-        
-        #making the person rethink who he/she typed
-        print(question, "is not legend why would you say that")
-        time.sleep(0.5)
-        print(question, "is most likely stubborn also so quite a small brain move right there")
-        time.sleep(1)
+            if question=="felix":
+                print("you speak truth? yea ik too")
+                time.sleep(2)
+                NAME()
+            
+            if question=="yin":
+                print("dream big.")
+                NAME()
+            time.sleep(.500)
+
+            if question=="desmond":
+                print("LOL ! NOOB ! YOU MEAN STUBBORN !")
+                time.sleep(2)
+                NAME()
+
+            if question=="EXIT":
+                print("Okay exiting.")
+                main()
+            
+            #making the person rethink who he/she typed
+            print(question, "is not legend why would you say that")
+            time.sleep(0.5)
+            print(question, "is most likely stubborn also so quite a small brain move right there")
+            time.sleep(1)
+            NAME()
         NAME()
-    NAME()
     if program=="IQ":
         # asking user for a name
         name = input("Whos iq do you want to find? ")
